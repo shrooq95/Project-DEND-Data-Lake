@@ -13,13 +13,15 @@ Project builds an ETL pipeline to Extract data from JSON files stored in AWS S3,
 etl.py: reads data from S3, processes it into analytics tables, and then writes them to S3
 dl.cfg: contains  AWS credentials
 
-So, transforms data to create five different tables :
+#### So, transforms data to create five different tables :
 
-Fact Table:
+#### Fact Table:
+
 songplays - records in log data associated with song plays (records with page NextSong)
             songplay_id, start_time, user_id, level, song_id, artist_id, session_id, location, user_agent
             
-Dimension Tables:
+#### Dimension Tables:
+
 users - users in the app Fields
         user_id, first_name, last_name, gender, level
 
