@@ -1,12 +1,14 @@
-About the project: 
+# Data Lake
+
+## About the project: 
 
 This Project handles data of a music streaming startup, Sparkify. Data set is a set of files in JSON format stored in AWS S3 buckets and contains two parts: log_data and song_data
 
-Description: 
+## Description: 
 
 Project builds an ETL pipeline to Extract data from JSON files stored in AWS S3, process the data with Apache Spark, and write the data back to AWS S3 as Spark parquet files. 
 
-It contains the following components:
+### It contains the following components:
 
 etl.py: reads data from S3, processes it into analytics tables, and then writes them to S3
 dl.cfg: contains  AWS credentials
